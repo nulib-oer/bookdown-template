@@ -1,0 +1,135 @@
+h1,h2,h3,h4,h5,h6 {
+  color: rgb(056, 023, 090);
+}
+
+.book .book-body .page-wrapper .page-inner section.normal h1.title {
+  font-size: 3.5rem;
+}
+
+p.author {
+  font-weight: bold;
+}
+
+table caption {
+  font-size: 125%;
+  font-weight: bold;
+  margin: 1em 0 1em 0;
+  color: #716c6b;
+}
+
+.caption {
+  font-size: 125%;
+  font-weight: bold;
+  margin: 1em 0 1em 0;
+  color: #716c6b;
+}
+
+.book.font-family-0 {
+  font-family: Georgia, serif;
+}
+.book.font-family-1 {
+  font-family: Arial, sans-serif;
+}
+
+.book .book-header.fixed {
+  background-color: #401f68 !important;
+}
+
+.book .book-header h1 a, .book .book-header h1 a:hover {
+  color: #fff;
+}
+
+.book .book-header .btn {
+  display: block;
+  height: 50px;
+  padding: 0 15px;
+  border-bottom: none;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 50px;
+  box-shadow: none !important;
+  position: relative;
+  font-size: 2rem;
+}
+
+.book .book-summary {
+  background: #BBB8B8;
+}
+
+.book .book-header, .book .book-summary {
+  font-family: Arial, sans-serif;
+  font-size: 1.85rem;
+}
+
+.book .book-summary ul.summary li:first-child {
+  font-weight: bold;
+}
+
+.book .book-summary ul.summary li.chapter:first-child {
+  font-weight: normal;
+}
+
+.book .book-summary ul.summary li a, .book .book-summary ul.summary li span {
+  color: #401f68;
+}
+
+.book .book-summary ul.summary li a:hover, .book .book-summary ul.summary li.active > a {
+  background: rgb(228, 224, 238);
+  color: rgb(038, 008, 065);
+}
+
+.book .book-body .page-wrapper .page-inner section.normal {
+  color: #000;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal pre {
+  background: rgb(228, 224, 238);
+}
+
+table {
+  width: 100%;
+  margin: 1em 0 0 0;
+  line-height: 1.5em;
+}
+
+th {
+  background: #716c6b;
+  color: #fff;
+  text-align: left;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal table th {
+  font-weight: normal;
+}
+
+.book .book-summary .book-search input, .book .book-summary .book-search input:focus, .book .book-summary .book-search input:hover {
+  color: #fff;
+}
+
+span.search-highlight {
+  background: rgb(228, 224, 238);
+  color: rgb(038, 008, 065);
+  font-weight:bold;
+}
+
+.figure {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding-top: 1em;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.figure:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.book .book-body .page-wrapper .page-inner section.normal a {
+  color: rgb(056, 023, 090);
+  text-decoration: none;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal a:hover {
+  color: rgb(056, 023, 090);
+  text-decoration: underline;
+}
