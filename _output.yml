@@ -1,5 +1,5 @@
 bookdown::gitbook:
-  css: styles/nu-night.css
+  css: styles/nu-blue.css
   config:
     fontsettings: false
     info: false
